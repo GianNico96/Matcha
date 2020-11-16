@@ -144,7 +144,7 @@ main{
 }
 .vid-imgs-2{
     left: 54%;
-    top: 6.5%;
+    top: 3%;
     width: 20%;
 }
 .vid-imgs-3{
@@ -173,7 +173,7 @@ main{
     height:315px;
     position:absolute;
     z-index: 5;
-    top: 20%;
+    top: 12%;
     left:55%;
 }
 
