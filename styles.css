@@ -208,6 +208,78 @@ main{
 
 
 
+/* Section features */
+
+.top-features-container{
+    width: 100%;
+    margin-top:20%;
+    margin-bottom: 20%;
+}
+.main-title{
+    margin-bottom: 60px;
+    margin-top:auto;
+    text-align: center;
+}
+.main-title > h1{
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    font-size: 55px;
+    color: #025157;
+    letter-spacing: -3px;
+}
+
+.text-header{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    
+}
+.card-item{
+    border-radius: 9px;
+    border: 1px solid #dadada;
+    box-shadow: 0 8px 24px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.card-item img{
+    width: 100%;
+    height: auto;
+}
+
+.title-main a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #343434;
+}
+
+.title-main > p{
+    color: #7e7e7e;
+    font-size: 17px;
+    max-width: 86%;
+    margin-left: 10px;
+    line-height: 1.5;
+}
+.title-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
 
 
 
