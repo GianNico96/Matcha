@@ -442,6 +442,72 @@ main{
     padding-right: 20px;
 }
 
+/* Section Compare */
+
+.compare-matcha-container{
+    margin-top:20%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20%;   
+}
+
+.table-container{
+    box-shadow: 0 4px 20px rgba(0,0,0,.06);
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    width:85%; 
+    
+    display: grid;
+    grid-template-columns: 42.5% 20% 20% 20%;
+    align-items: center;
+    padding-right: 46px;
+    padding-left:40px;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+.table-header{
+    padding-left: 20px;
+}
+.table-header > h1 {
+    font-size: 26px;
+    line-height: 1em;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    color: #025157;
+}
+.table-header > img {
+    width: auto;
+    height: 48px;
+}
+.table-item{
+    width: 100%;
+    padding:0 20px;
+}
+.table-title{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1em;
+    margin-bottom: 6px
+}
+.table-text{
+    font-size: 13px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.table-text-p{
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-left:10px;
+}
+.--img > img{
+    padding-top:45px;
+    padding-left: 56px;
+}
+.-img-header{
+    padding-left:60px;
+}
 
 
 
