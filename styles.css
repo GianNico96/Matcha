@@ -509,11 +509,29 @@ main{
     padding-left:60px;
 }
 
+/* Section Blocks */
 
+.blocks-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr); 
+    padding: 20px;
+    gap: 40px 40px;
+}
+.blocks-container >article{
+    width: 95%;
+    height: 270px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left:20px;
+   
+ }
 
-
-
-
+.img-block{
+    max-width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+   }
 
 
 
