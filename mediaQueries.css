@@ -403,6 +403,47 @@
     
 }
 
-@media (min-width: 1200px) {
-    
-  }
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
+    .publish-promo > h1 {
+        font-size: 52px;
+    }
+    .promo-text {
+       
+        font-size: 18px;
+    }
+    .video{
+        margin-top:20%;
+    }
+    .logo-brands {
+        margin-top: 140px;
+    }
+    .logo{
+        flex-flow: row wrap;
+        width: 200px;
+    }
+    .img-logo {
+        margin-right: 30px;
+    }
+
+    .card-tools{
+        flex-flow: row wrap;
+    }
+    .card{
+        width: 250px;
+        margin-top:10px;
+    }
+
+    .paragraphs > p{
+        margin-top: 0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .texto{
+        line-height: 1.5;
+    }
+
+}
