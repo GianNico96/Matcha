@@ -1,34 +1,87 @@
 /* MediaQueries */
 
- @media (max-width: 575px) {
+ @media (min-width: 576px) {
     main{
         margin-top:70px;
     }
-    .col-6{
-        flex-direction: column;
-        max-width: 90%;
-       
-    }
-    .title-promo{
-        text-align: center;
-    }
-    .promo-text{
+    .navbar-light .navbar-nav .nav-link {
+        color:#025157;
+        margin:0;
         text-align: center;
     }
 
-    .video{
-        
-        margin-top:20%;  
-        margin-right:60%;
+    .title{
+        font-size: 38px;
     }
+    .card{
+        margin-top:20px;
+    }
+
+    .card-imagen1 {
+      height: 50vh;
+    }
+    .card-imagen2{
+        height: 50vh;
+    }
+    .card-imagen3{
+        height: 50vh;
+    }
+
+    .card-imagen4{
+        height: 50vh;
+    }
+
+    .text-main{
+        font-size: 38px;
+    }
+
+    .sp {
+        padding-left: 10px;
+    }
+
     
+    .style {
+        font-size: 30px;
+        padding-top:25px;
+    }
+
+    .style2{
+        font-size: 20px;
+        text-align: center;
+    }
+
 } 
 
-@media (min-width: 768px) and (max-width: 991px) {
-    
+
+@media (min-width: 768px){
+    .img-hover-zoom {
+        height: auto; 
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    
+@media (min-width: 992px) {
 
+    main{
+        margin-top: 200px;
+    } 
+    .navbar-light .navbar-nav .nav-link {
+       
+        margin: 10px 10px;
+    }
+    
+    .title{
+        font-size: 55px;
+    }
+
+    .text-main{
+        font-size: 55px;
+    }
+
+    .style{
+        font-size: 54px;
+    }
+    .style2{
+        font-size: 23px;
+    }
+    
 }

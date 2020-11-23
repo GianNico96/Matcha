@@ -10,7 +10,6 @@ body{
 .navbar-light .navbar-nav .nav-link {
     color:#025157;
     margin: 25px 25px;
-    
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -57,10 +56,11 @@ main{
 /* Section Promo */
 
 .title-promo{
-    font-size: 68px;
+    font-size: 60px;
     letter-spacing: -3px;
     color: #025157;
     width: 336px;
+    font-weight: 600;
 }
 .promo-text{
     line-height: 31px;
@@ -90,12 +90,6 @@ main{
     color: #fff;
 }
 
-/* article video */
-.video{
-    width:560px;
-    height:315px;
-    z-index: 5;
-}
 
 /* section brands-logo */
 
@@ -109,6 +103,10 @@ main{
 .logos{
     max-width: 100%;
     margin: 0 auto;
+}
+
+.mr{
+    margin:20px;
 }
 
 /* Section features */
@@ -163,7 +161,7 @@ main{
 }
 .title-principal{
     font-family: vesterbroextrabold,Arial,sans-serif;
-    font-weight: 400!important;
+    font-weight: 700!important;
     color: #025157;
     letter-spacing: -1px;
     margin-left: 0;
@@ -182,7 +180,7 @@ main{
 /* Section Users Cases */
 
 .card-imagen1{
-    background-image: url(https://getmatcha.com/wp-content/uploads/2020/09/0-1-150x150-1.jpeg);
+    background-image: url(assets/img1.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -194,7 +192,7 @@ main{
 }
 
 .card-imagen2{
-    background-image: url(https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png);
+    background-image: url(assets/img2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +204,7 @@ main{
 }
 
 .card-imagen3{
-    background-image: url(https://getmatcha.com/wp-content/uploads/2019/08/0.jpg);
+    background-image: url(assets/img3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -218,7 +216,7 @@ main{
 }
 
 .card-imagen4{
-    background-image: url(https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png);
+    background-image: url(assets/img4.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -273,6 +271,7 @@ main{
     font-size: 55px;
     color: #025157;
     letter-spacing: -2px;
+    font-weight: 600;
     
 }
 .btn3{
